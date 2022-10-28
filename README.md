@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROG5qBN2FeQfslJPfFVvmiuNqIzLbTxI1PsA&usqp=CAU" alt="Markdownify" width="200"></a>
+  <a ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROG5qBN2FeQfslJPfFVvmiuNqIzLbTxI1PsA&usqp=CAU" alt="Markdownify" width="200"></a>
   <br>
     Data Visualization with Power BI
   <br>
@@ -9,13 +9,13 @@
 <div align="center">
     <a href="https://powerbi.microsoft.com/">
     <img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"></a>
-    <a href="https://powerbi.microsoft.com/">
+    <a >
     <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"></a>
-    <a href="https://powerbi.microsoft.com/">
+    <a >
     <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white"></a>
-     <a href="https://powerbi.microsoft.com/">
+     <a>
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"></a>
-     <a href="https://powerbi.microsoft.com/">
+     <a >
     <img src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white"></a>
 
 </div>
@@ -304,7 +304,7 @@ ignore last : 마지막 n 값을 무시하고 예측값을 보여줌 ==> 실제 
 
 
 
-
+<!-- 
 
 <h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
@@ -423,4 +423,4 @@ MIT
 > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
 > GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
 > Twitter [@amit_merchant](https://twitter.com/amit_merchant)
-
+ -->
