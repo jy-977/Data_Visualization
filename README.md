@@ -12,6 +12,8 @@
     <a >
     <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"></a>
     <a >
+    <img src="https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logo=microsoft&logoColor=black"></a>
+    <a >
     <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white"></a>
      <a>
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"></a>
