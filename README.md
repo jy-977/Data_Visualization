@@ -21,9 +21,22 @@
     <img src="https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white"></a>
 
 </div>
-<div align="center">
+<br>
 
-</div>
+
+## Objective
+
+As a part of DE, ML studying, this repository will contains the review of **Data visualizaion**
+데이터분석이 DE, ML에서도 중요하지만, 비즈니스에서 중요한 것은 커뮤니케이션을 위한 데이터 시각화다. 약간의 데이터 분석 쿼리와 함께 효율적인 데이터 시각화를 위한 툴로 power bi 를 이용하는 과정과 목적을 보여준다.
+또 비즈니스적인 측면에서 power bi의 역할과 구조화된 데이터 리포트를 제작하는 과정에 대해 기록한다.
+
+Before we go through Power BI, We need to remind : 
+
+    -  What is Power BI for
+    -  Why Power BI is necessary
+    -  How can we utilize Power BI for business
+
+ <img src="https://github.com/jy-977/Data_Visualization/blob/main/Captures/91.JPG">
 
  
 ## Section 2
