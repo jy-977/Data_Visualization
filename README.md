@@ -294,16 +294,27 @@ ignore last : 마지막 n 값을 무시하고 예측값을 보여줌 ==> 실제 
 회색부분 : confident interval 신뢰구간
 
 
+## Section 8 - advanced : parameters, functions
+어려워 ㅠ 차라리 그냥 함수 프로그래밍 하는게 더 쉬운데 버튼으로 하나하나 옮겨가면서 해야하니까 불편하다
 
 
 
+**85**
+
+list query : 
+1) table 
+2) single value
+3) list
+
+테이블에서 column 추출 ==> list로 새로운 변수? 저장공간 생성
 
 
+**86 bring data from web**
+bring variable value from web page as table
+--> change to value
+--> use value on the other tables.
 
-
-
-
-
+**86 bring data from web**
 <!-- 
 
 <h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
