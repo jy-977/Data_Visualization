@@ -42,7 +42,7 @@ Before we go through Power BI, We need to remind :
 
 <Details>
 
-### Data Cleaning && Data Type 
+    데이터 데이터 형식 지정
 
 Power BI Desktop : transform , model, visualize , analyze
 Bower BI cloud : share & collaborate
@@ -75,7 +75,9 @@ Power Query Editor :
 필요없는 top rows 제거
 
 **2-16**
+
 pbix파일 받았는데 경고 뜰 경우 
+
 Transform data : data source setting change
 
 
@@ -113,10 +115,9 @@ method 2) Error occured
 </Details>
 
 
-## Section 3 Data Structure , Modeling
+## Section 3
 
 <Details>
-
 **22 Data Extract**
 
 Transform Tab : Extract
@@ -185,7 +186,7 @@ hard to read --> column chart
     legend : 범례
 </Details>
 
-## Section 5 Data Model Relation
+## Section 5
 
 
 <Details>
@@ -231,7 +232,7 @@ slicer 로 모델뷰에서 테이블에 대한 필터를 설정 할 수 있음
 </Details>
 
 
-## Section 6 Interactional Visualization I
+## Section 6
 1)이제까지는 데이터를 편집해서 가공하고
 2) 가공된 데이터로 모델을 만들었다
 
@@ -280,8 +281,8 @@ column from example로 열참조 ===> custom 해서 value 값 바꿈
 
 </Details>
 
-## Section 7 Interactional Visualization II
-<Details>
+## Section 7
+
 **66 visualization sort**
 정렬 - 요일순
 1) visualize 우측 상단 ... ==> ORDER
@@ -306,9 +307,8 @@ ignore last : 마지막 n 값을 무시하고 예측값을 보여줌 ==> 실제 
 정확도 : 얼마나 데이터가 누적되었는지에 따라 다르다
 회색부분 : confident interval 신뢰구간
 
-</Details>
 
-## Section 8  Parameters, Functions
+## Section 8 - advanced : parameters, functions
 <div align="center">
     <img src="https://github.com/jy-977/Data_Visualization/blob/main/Captures/70.JPG?raw=true">
 </div> 
