@@ -330,8 +330,128 @@ bring variable value from web page as table
 --> use value on the other tables.
 
 **86 bring data from web**
-<!-- 
 
+
+## Section 10 : DAX( DATA ANALYSIS EXRESSION)
+<Details>
+
+**91 Calculated Column**
+Calcumated Column : 말그대로 dax를 이용해서 생성된 column , 
+기존 column 에서 추출 / 편집한 값
+
+**92 Measure**
+Measure : data table에는 생성되지 않고 이론적으로만 편집된 값이 존재함
+따라서 data table 확인해보면 없음
+1) datble independent : 하나의 table에서 독립적임
+2) aggreate a mesure --> sum, average 등 집계함수 사용
+3) measure 을 사용해야만 값이 계산됨 : 그전까지는 공간 사용 X
+ 
+Difference of measure and calculated column 
+
+
+**93 measure Table**
+Measure Table 생성 해서 Measure 만든것만 모아둔 table을 만들 수 있다
+measure --> measure tool 탭 클릭 --> 
+
+
+**94 Count, DistinctCount, CountRows**
+Count : 중복값 포함 몇개인지 알려줌
+distinct count: distinct값 몇개인지
+count rows : 공백값포함, 중복값 포함 몇개인지 알려줌
+
+**95 sumx**
+
+iterative 함수들
+step 1) evalutate expression for everyrows
+step 2) aggregate
+
+**96 average, round**
+
+**97 related**
+
+DAX 함수에서 다른 테이블의 column가져오기 : related
+
+ex) losgistics cost = sumx('sales', 'sales'[sales]*RELATED(product[volume]*0.001)
+
+**98 calculate**
+정적인 filter을 계산함
+시각 모델로 filter링을 해도 변하지 않는 filter를 할때 유용
+다른 필터링 (filter context)보다 cacluate 함수가 우선함
+
+
+**99 filter**
+measure 은 다른 mesure에서 참조가 가능함
+mesure1 = mesure2*0.02
+
+
+**100 filter**
+
+not ==> <>
+measrue = 조건 1 + 조건 2
+filter 사용
+
+          #조건 1 , filter()      #조건2,(filter)
+    mesure =  caculate(cost *0.1 , filter(state = 'california')) + cacluate(cost*profit*0.25, filter(state<>'calinfornia'))
+
+    
+**101 logic**
+&& and
+|| or
+
+
+
+**102 Command**
+fomatting cacluation : shift +enter : 줄바꿈
+// ==> COMMAND
+
+
+
+
+**106 ALL**
+all : filter 무시
+
+**108 ALLEXCEPT**
+allexcept : 1개 빼고 filter 무시
+
+**109 ALLSELECTED**
+allselected : 외부 필터는 적용 내부 필터는 무시
+
+**109 DATEADD**
+Time intelligence : 
+
+dateadd 지정된 날짜 만큼 앞의 날짜를 포함하는 열
+1달전, 1주전.. 등
+
+**110 datesYTD**
+Dates year to day 
+연말을 기준으로 새로 축적
+1월1일 혹은 새로운 년도가 되면 축적이 0에서 다시 시작함
+datesYTD, DATSQTD, DATESMTD도 있음
+
+**111 Rounding**
+round 
+1 소숫점 1자리
+-1 10의 자리
+round up : 반올림 / rounddown : 반내림
+
+mround : 배수로 올림 (0.25단위라던지..)
+
+ceiling : 올림
+floor : 내림
+
+**112 format**
+날짜 custom format
+
+
+</Details>
+
+
+
+## Power BI Cloud
+
+
+
+<!-- 
 <h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
 <p align="center">
