@@ -310,10 +310,10 @@ ignore last : 마지막 n 값을 무시하고 예측값을 보여줌 ==> 실제 
 
 
 ## Section 8 - advanced : parameters, functions
-어려워 ㅠ 차라리 그냥 함수 프로그래밍 하는게 더 쉬운데 버튼으로 하나하나 옮겨가면서 해야하니까 불편하다
-
-
-
+<div align="center">
+    <img src="https://github.com/jy-977/Data_Visualization/blob/main/Captures/70.JPG?raw=true">
+</div> 
+<Details>
 **85**
 
 list query : 
@@ -330,9 +330,12 @@ bring variable value from web page as table
 --> use value on the other tables.
 
 **86 bring data from web**
-
+</Details>
 
 ## Section 10 : DAX( DATA ANALYSIS EXRESSION)
+<div align="center">
+    <img src="https://github.com/jy-977/Data_Visualization/blob/main/Captures/90.png?raw=true">
+</div>
 <Details>
 
 **91 Calculated Column**
